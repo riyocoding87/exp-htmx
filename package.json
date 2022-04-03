@@ -1,0 +1,28 @@
+{
+  "name": "exp-htmx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tailwindcss -i ./dist/css/input.css -o ./dist/css/output.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riyocoding87/exp-htmx.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/riyocoding87/exp-htmx/issues"
+  },
+  "homepage": "https://github.com/riyocoding87/exp-htmx#readme",
+  "dependencies": {
+    "@tailwindcss/forms": "^0.5.0",
+    "htmx.org": "^1.7.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.0.23"
+  }
+}
